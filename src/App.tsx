@@ -7,6 +7,11 @@ import { Movie } from './types/Movie';
 export const App = () => {
   const [movies] = useState<Movie[]>([]);
 
+  // useEffect(() => {
+  //   getMovie('dj')
+  //     .then(res => setMovie(res));
+  // }, []);
+
   return (
     <div className="page">
       <div className="page-content">
